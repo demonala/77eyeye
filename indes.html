@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tamworth 2D Action Game</title>
+</head>
+<body>
+  <center>
+    <h1>Tamworth 2D Action Game</h1>
+    <p>Real 2D Games on your Chrome</p>
+    <button onclick="startTroll()">Start Game</button>
+    <hr>
+  </center>
+
+  <!-- Fake ads everywhere -->
+  <marquee>🔥 DOWNLOAD FREE ROBUX GENERATOR AT roblix.com 🔥</marquee>
+  <marquee direction="right">💰 Get Unlimited Money DLC 💰</marquee>
+  <p>[AD] Click here to claim your 1,000,000 BITCOIN 💸</p>
+  <p>[AD] iphone Course only $1 👉 CLICK FAST</p>
+  <p>[AD] Send your money to werenotscam.com – Totally Real,Trusted ✅</p>
+  <hr>
+  <p>[SPONSOR] buy more drug</p>
+  <p>[SPONSOR] Fuck His Mom! Play this 2D Game NOW</p>
+  <p>[SPONSOR] Pc Booster Pack DLC Available</p>
+
+  <!-- Fullscreen popup -->
+  <div id="popup" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:white;z-index:9999;text-align:center;">
+    <h1 id="brainrot-text">💀 BRAINROT 💀</h1>
+    <img id="brainrot-img" src="" alt="Brainrot meme" style="max-width:400px;">
+    <p><button onclick="closePopup()">CLOSE</button></p>
+  </div>
+
+  <script>
+    const brainrotList = [
+      { img: "", text: "Download Our Bba.exe 100% not a virus" },
+      { img: "", text: "data encrypt" },
+      { img: "", text: "skill issue as fuck" },
+      { img: "", text: "try our porn game" },
+      { img: "", text: "yea" }
+    ];
+
+    function startTroll() {
+      const popup = document.getElementById("popup");
+      const brainrot = brainrotList[Math.floor(Math.random() * brainrotList.length)];
+      document.getElementById("brainrot-img").src = brainrot.png; 
+      document.getElementById("brainrot-text").textContent = brainrot.text;
+      popup.style.display = "block";
+    }
+
+    function closePopup() {
+      document.getElementById("popup").style.display = "none";
+    }
+  </script>
+</body>
+</html>
